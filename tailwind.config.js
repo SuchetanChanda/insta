@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    content: ["./pages/**/*.tsx", "./components/**/*.tsx"],
+    content: ["./pages/**/*.tsx", "./Components/**/*.tsx"],
     // These options are passed through directly to PurgeCSS
   },
   theme: {
