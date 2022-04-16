@@ -23,7 +23,7 @@ function Stories() {
     rounded-sm overflow-x-scroll scrollbar-thin scrollbar-thumb-black '>
       {session && (
       <Story img={session.user.image} username={session.user.username} />
-    )};
+    )}
         {suggestions.map(profile => (
             <Story key={profile.id} 
             img={profile.avatar} 
